@@ -26,7 +26,49 @@
     width: 100%;
     background-color: #2c0736;
 }
+/* ------- NAV BAR ------- */
 .nav {
     display: flex;
     justify-content: space-around;
+    align-items: center;
+    width: 25%;
+}
+.logo {
+    width: 25%;
+    height: 5em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo-img {
+    height: 5rem;
+}
+
+.searchbar {
+    width: 25%;
+}
+.nav-list {
+    display: flex;
+    justify-content: space-between;
+}
+.nav-list-item {
+    padding: 2em;
+    margin-right: 2em;
+    list-style: none;
+
+}
+.nav-list-item-1 {
+    border: 2px solid #ff2020;
+    background-color:#e32828;
+    border-radius: 1px 2px 1px;
+}
+.nav-list-item-2 {
+    border: 2px solid #2f20ff;
+    background-color: #3e28e3;
+    border-radius: 1px 2px 1px;
+}    
+.nav-list-item-3 {
+    border: 2px solid #ff8c20;
+    background-color: #e38228;
+    border-radius: 1px 2px 1px;
 }
