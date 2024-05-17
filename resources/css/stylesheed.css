@@ -1,0 +1,119 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+#grid {
+    display: grid;
+    grid-template-areas:  'head head head'
+                            'main main main'
+                            'main main main'
+                            'footer footer footer';
+    background-color: #4d4d4d;
+}
+#grid-header-placment {
+    grid-area: head;
+    width: 100%;
+    background-color: #410000;
+}
+#grid-main-placment {
+    grid-area: main;
+    width: 100%;
+    background-color: #4d4d4d;
+}
+#grid-footer-placment {
+    grid-area: footer;
+    width: 100%;
+    background-color: #2c0736;
+}
+/* ------- NAV BAR ------- */
+.nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 25%;
+}
+.logo {
+    width: 25%;
+    height: 5em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo-img {
+    height: 5rem;
+}
+.html-logo-class {
+    color: #ff2020;
+}
+.css-logo-class {
+    color: #3e28e3;
+}
+.js-logo-class {
+    color: #e38228;
+}
+.first-AND-logo {
+    background: linear-gradient(to right, #ff2020, #3e28e3);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+.second-AND-logo {
+    background: linear-gradient(to right, #3e28e3, #e38228);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.searchbar {
+    width: 25%;
+}
+.flex-searchbar {
+    display: flex;
+}
+.searchbar-title {
+    margin-right: 0.5rem;
+    color: #fff;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: space-between;
+}
+.nav-list-item {
+    display: flex;
+    justify-content: center;
+    max-width: 100px;
+    width: 100px;
+    padding: 1em;
+    margin-right: 2em;
+    list-style: none;
+    border-radius: 25px 25px 25px;
+    
+
+}
+.nav-list-item-1 {
+    border: 2px solid #ff2020;
+    background-color:#e32828;
+}
+.nav-list-item-1:hover {
+    background-color: #fa2e2e;
+    color: #fff;
+}
+.nav-list-item-2 {
+    border: 2px solid #2f20ff;
+    background-color: #3e28e3;
+}
+.nav-list-item-2:hover {
+    background-color: #4c38e1;
+    color: #fff;
+}    
+.nav-list-item-3 {
+    border: 2px solid #ff8c20;
+    background-color: #e38228;
+}
+.nav-list-item-3:hover {
+    background-color: #e18d3f;
+    color: #fff;
+}
